@@ -1,0 +1,19 @@
+{
+	"groups": [
+		{
+			"keys": "netconfig_json",
+			"name": "game"
+		},
+		{
+			"keys": "netconfig_json",
+			"name": "loading"
+		}
+	],
+	"resources": [
+		{
+			"url": "config/netconfig.json",
+			"type": "json",
+			"name": "netconfig_json"
+		}
+	]
+}

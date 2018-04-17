@@ -1,0 +1,5 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="LoadingSkin" width="1400" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="bg" scaleX="1" scaleY="1" left="0" right="0" top="0" bottom="0" width="1400" source=""/>
+	<e:Label id="t_loading" size="67" fontFamily="Microsoft YaHei" text="100%" verticalAlign="middle" textAlign="center" width="200" textColor="0xFFFFFF" lineSpacing="12" horizontalCenter="0" bottom="111" height="60"/>
+</e:Skin>

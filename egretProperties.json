@@ -1,0 +1,38 @@
+{
+  "engineVersion": "5.1.5",
+  "compilerVersion": "5.1.5",
+  "template": {},
+  "target": {
+    "current": "web"
+  },
+  "modules": [
+    {
+      "name": "egret"
+    },
+    {
+      "name": "game"
+    },
+    {
+      "name": "tween"
+    },
+    {
+      "name": "assetsmanager"
+    },
+    {
+      "name": "eui"
+    },
+    {
+      "name": "dragonBones"
+    },
+    {
+      "name": "socket"
+    },
+    {
+      "name": "promise"
+    },
+    {
+      "name": "catcherSDK",
+      "path": "libs/catcherSDK"
+    }
+  ]
+}
