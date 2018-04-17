@@ -13,7 +13,7 @@
 			</e:Skin>
 			</e:skinName>
 		</e:Button>
-		<e:Label text="正方" horizontalCenter="0" verticalCenter="0" size="60" fontFamily="KaiTi"/>
+		<e:Label text="正方" horizontalCenter="0" verticalCenter="0" size="60" fontFamily="KaiTi" textColor="0x000000"/>
 	</e:Group>
 	<e:Group width="200" height="75" right="350" bottom="50">
 		<e:Button label="" x="0" y="0" width="200" height="75">
@@ -24,7 +24,7 @@
 				</e:Skin>
 			</e:skinName>
 		</e:Button>
-		<e:Label text="反方" horizontalCenter="0" verticalCenter="0" size="60" fontFamily="KaiTi"/>
+		<e:Label text="反方" horizontalCenter="0" verticalCenter="0" size="60" fontFamily="KaiTi" textColor="0x000000"/>
 	</e:Group>
 	<e:Group width="320" height="120" bottom="130" x="72">
 		<e:Image source="持方辩位单独计时框_png" x="0" y="0" width="320" height="120" scaleX="1" scaleY="1"/>
@@ -32,14 +32,16 @@
 	</e:Group>
 	<e:Group width="350" height="250" left="50" top="20">
 		<e:Image source="正方队伍框_png" width="350" height="250" x="0" y="0" scaleX="1" scaleY="1"/>
-		<e:EditableText width="300" text="佛系标签对于青年人成长利大于弊" bottom="20" height="130" anchorOffsetX="0" anchorOffsetY="0" size="30" horizontalCenter="0" textAlign="center" wordWrap="true" multiline="true"/>
-		<e:Label text="正方" horizontalCenter="0" top="20" size="60" fontFamily="KaiTi"/>
+		<e:EditableText width="300" text="佛系标签对于青年人成长利大于弊" bottom="20" height="130" anchorOffsetX="0" anchorOffsetY="0" size="35" horizontalCenter="0" textAlign="center" wordWrap="true" multiline="true" textColor="0x000000" bold="true"/>
+		<e:Label text="正方" horizontalCenter="0" top="20" size="60" fontFamily="KaiTi" textColor="0x000000" bold="true"/>
 	</e:Group>
 	<e:Group width="350" height="250" right="50" top="20">
 		<e:Image source="反方队伍框_png" width="350" height="250" x="0" y="0" scaleX="1" scaleY="1"/>
-		<e:Label text="反方" size="60" horizontalCenter="0" top="20" fontFamily="KaiTi"/>
-		<e:EditableText width="300" height="130" text="佛系标签对于青年人成长弊大于利" bottom="20" horizontalCenter="0" multiline="true" textAlign="center"/>
+		<e:Label text="反方" size="60" horizontalCenter="0" top="20" fontFamily="KaiTi" textColor="0x000000" bold="true"/>
+		<e:EditableText width="300" height="130" text="佛系标签对于青年人成长弊大于利" bottom="20" horizontalCenter="0" multiline="true" textAlign="center" textColor="0x000000" size="35" bold="true"/>
 	</e:Group>
 	<e:Label text="03:00" horizontalCenter="0" verticalCenter="0" size="120" width="301"/>
 	<e:Label text="正方一辩立论陈词" top="20" horizontalCenter="0" size="50"/>
+	<e:Image source="上一环节_png" left="16" verticalCenter="0"/>
+	<e:Image source="下一环节_png" verticalCenter="0" right="16"/>
 </e:Skin>
