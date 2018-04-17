@@ -1,11 +1,11 @@
 {
 	"groups": [
 		{
-			"keys": "netconfig_json",
+			"keys": "netconfig_json,被计时方持方显示_png,持方辩位单独计时框_png,发言方（反）_png,发言方（正）_png,反方队伍框_png,反方发言方_png,没被计时方持方显示_png,上一环节_png,时钟_png,未发言方（反）_png,未发言方（正）_png,下一环节_png,选择功能框_png,选择后功能框_png,正方队伍框_png",
 			"name": "game"
 		},
 		{
-			"keys": "netconfig_json",
+			"keys": "netconfig_json,背景_png",
 			"name": "loading"
 		}
 	],
@@ -14,6 +14,86 @@
 			"url": "config/netconfig.json",
 			"type": "json",
 			"name": "netconfig_json"
+		},
+		{
+			"url": "images/上一环节.png",
+			"type": "image",
+			"name": "上一环节_png"
+		},
+		{
+			"url": "images/下一环节.png",
+			"type": "image",
+			"name": "下一环节_png"
+		},
+		{
+			"url": "images/反方发言方.png",
+			"type": "image",
+			"name": "反方发言方_png"
+		},
+		{
+			"url": "images/反方队伍框.png",
+			"type": "image",
+			"name": "反方队伍框_png"
+		},
+		{
+			"url": "images/发言方（反）.png",
+			"type": "image",
+			"name": "发言方（反）_png"
+		},
+		{
+			"url": "images/发言方（正）.png",
+			"type": "image",
+			"name": "发言方（正）_png"
+		},
+		{
+			"url": "images/持方辩位单独计时框.png",
+			"type": "image",
+			"name": "持方辩位单独计时框_png"
+		},
+		{
+			"url": "images/时钟.png",
+			"type": "image",
+			"name": "时钟_png"
+		},
+		{
+			"url": "images/未发言方（反）.png",
+			"type": "image",
+			"name": "未发言方（反）_png"
+		},
+		{
+			"url": "images/未发言方（正）.png",
+			"type": "image",
+			"name": "未发言方（正）_png"
+		},
+		{
+			"url": "images/正方队伍框.png",
+			"type": "image",
+			"name": "正方队伍框_png"
+		},
+		{
+			"url": "images/没被计时方持方显示.png",
+			"type": "image",
+			"name": "没被计时方持方显示_png"
+		},
+		{
+			"url": "images/背景.png",
+			"type": "image",
+			"name": "背景_png"
+		},
+		{
+			"url": "images/被计时方持方显示.png",
+			"type": "image",
+			"name": "被计时方持方显示_png"
+		},
+		{
+			"url": "images/选择功能框.png",
+			"type": "image",
+			"name": "选择功能框_png"
+		},
+		{
+			"url": "images/选择后功能框.png",
+			"type": "image",
+			"name": "选择后功能框_png"
 		}
 	]
 }
